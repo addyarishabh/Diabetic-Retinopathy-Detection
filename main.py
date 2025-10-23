@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from train import train
 from test import evaluate
 from model import ConvNeXtKAN
@@ -44,4 +43,4 @@ train(model, train_loader, criterion, optimizer, device)
 # Load trained model and test
 model.load_state_dict(torch.load("convnext_kan.pth"))
 evaluate(model, test_loader, class_names, device)
->>>>>>> b486782a6c4cdcbbe100f1ccdfade07bd2e310ae
+
